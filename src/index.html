@@ -27,7 +27,8 @@
             name="surname"
             required
             autocomplete="off"
-            class="first">
+            class="first"
+            value="">
         </div>
 
         <div class="block">
@@ -36,7 +37,8 @@
             type="text"
             id="name"
             name="name"
-            autocomplete="off">
+            autocomplete="off"
+            value="">
         </div>
 
         <div class="block">
@@ -56,7 +58,8 @@
             type="date"
             id="birth"
             name="birth"
-            max="16">
+            max="16"
+            value="">
         </div>
 
         <div class="block">
@@ -64,7 +67,8 @@
           <input
             type="checkbox"
             id="accept"
-            name="accept">
+            name="accept"
+            value="">
         </div>
       </fieldset>
 
@@ -80,7 +84,8 @@
             id="email"
             name="email"
             placeholder="email@example.com"
-            class="first">
+            class="first"
+            value="">
         </div>
 
         <div class="block">
@@ -89,7 +94,8 @@
             type="password"
             id="password"
             name="password"
-            maxlength="16">
+            maxlength="16"
+            value="">
         </div>
       </fieldset>
 
@@ -104,14 +110,16 @@
           type="radio"
           id="yes"
           name="cats"
-          class="first">
+          class="first"
+          value="">
           <label for="yes"> Yes</label>
 
           <input
           type="radio"
           id="no"
           name="cats"
-          class="first">
+          class="first"
+          value="">
           <label for="no"> No</label>
         </div>
 
@@ -120,7 +128,8 @@
           <input
             type="color"
             id="color"
-            name="color">
+            name="color"
+            value="">
         </div>
 
         <div class="block">
@@ -129,7 +138,8 @@
             type="time"
             id="time"
             name="time"
-            step="2">
+            step="2"
+            value="">
         </div>
 
         <div class="block">
@@ -179,8 +189,11 @@
         </div>
       </fieldset>
 
-      <input class="submit" onsubmit="onSubmit()"
-      value="Submit" type="submit">
+      <input
+        class="submit"
+        onsubmit="onSubmit()"
+        value="Submit"
+        type="submit">
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
